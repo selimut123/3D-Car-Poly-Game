@@ -19,5 +19,6 @@ public class InputController : MonoBehaviour
     {
         steerInput = joystick.Horizontal;
         ThrottleInput = joystick.Vertical;
+        Debug.Log(joystick.Vertical);
     }
 }
